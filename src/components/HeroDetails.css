@@ -1,0 +1,40 @@
+.HeroDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin: 50px;
+    border: solid 2px red;
+    background-color: seashell;
+    height: auto;
+    width: 30vw;
+
+}
+
+.detail-card-content, .image-hero-detail {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+h2, .detail-card-content, .detail-card-stat {
+    color: #2B2A2C;
+}
+
+h2, h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 5px;
+}
+
+.link-detail {
+    color: seashell;
+}
